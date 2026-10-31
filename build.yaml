@@ -24,5 +24,4 @@ include:
   - board: xiao_ble
     shield: settings_reset
   - board: xiao_ble
-    shield: lily58_dongle prospector_adapter
-    cmake-args: -DSHIELD_ROOT=config
+    shield: prospector_adapter
