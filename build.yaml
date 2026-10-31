@@ -13,19 +13,21 @@
 #
 ---
 include:
-  - board: nice_nano@2.0.0
+  - board: nice_nano@2.0.0//zmk
     shield: lily58_left nice_view_adapter nice_view
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
     artifact-name: lily58_left-nice_view-nice_nano-zmk
-  - board: nice_nano@2.0.0
+  - board: nice_nano@2.0.0//zmk
     shield: lily58_right nice_view_adapter nice_view
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
     artifact-name: lily58_right-nice_view-nice_nano-zmk
-  - board: nice_nano@2.0.0
+  - board: nice_nano@2.0.0//zmk
     shield: settings_reset
+    artifact-name: settings_reset-nice_nano-zmk
   - board: xiao_ble//zmk
     shield: settings_reset
     artifact-name: settings_reset-xiao_ble-zmk
   - board: xiao_ble//zmk
     shield: lily58_dongle prospector_adapter
+    cmake-args: -DCONFIG_LV_Z_MEM_POOL_SIZE=16384
     artifact-name: lily58_dongle_prospector-xiao_ble-zmk
