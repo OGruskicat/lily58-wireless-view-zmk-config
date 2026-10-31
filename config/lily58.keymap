@@ -25,7 +25,7 @@
 &kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT  &kp N1  &kp N2  &kp N3            &kp N4    &kp N5                                   &kp N6         &kp N7  &kp N8     &kp N9   &kp N0         &kp EQUAL
 &kp ESCAPE                            &kp Q   &kp W   &kp F             &kp P     &kp B                                    &kp J          &kp L   &kp U      &kp Y    &kp SEMICOLON  &kp MINUS
 &kp TAB                               &kp A   &kp R   &kp S             &kp T     &kp G                                    &kp M          &kp N   &kp E      &kp I    &kp O          &kp SQT
-&kp LSHFT                             &kp Z   &kp X   &kp C             &kp V     &kp B             &kp LBKT     &kp RBKT  &kp K          &kp H   &kp COMMA  &kp DOT  &kp FSLH       &kp NON_US_BACKSLASH
+&kp LSHFT                             &kp Z   &kp X   &kp C             &kp D     &kp V             &kp LBKT     &kp RBKT  &kp K          &kp H   &kp COMMA  &kp DOT  &kp FSLH       &kp NON_US_BACKSLASH
                                                       &kp LEFT_CONTROL  &kp LALT  &kp LEFT_COMMAND  &kp SPACE    &kp RET   &kp BACKSPACE  &mo 1   &to 2
             >;
 
