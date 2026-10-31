@@ -66,7 +66,7 @@
 &kp GRAVE       &kp Q         &kp W         &kp E         &kp R         &kp T                                          &kp Y         &kp U         &kp I      &kp O       &kp P          &kp MINUS
 &kp CAPSLOCK    &kp A         &kp S         &kp D         &kp F         &kp G                                          &kp H         &kp J         &kp K      &kp L       &kp SEMICOLON  &kp GRAVE
 &kp LEFT_SHIFT  &kp Z         &kp X         &kp C         &kp V         &kp B   &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp N         &kp M         &kp COMMA  &kp PERIOD  &kp SLASH      &kp SQT
-                                            &trans        &trans        &trans  &kp SPACE           &kp ENTER          &trans        &trans        &trans
+                                            &trans        &trans        &trans  &kp SPACE           &kp ENTER          &trans        &mo 1         &to 0
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
