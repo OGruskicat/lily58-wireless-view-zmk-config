@@ -24,4 +24,4 @@ include:
   - board: xiao_ble
     shield: settings_reset
   - board: xiao_ble
-    shield: prospector_adapter
+    shield: lily58_dongle prospector_adapter
