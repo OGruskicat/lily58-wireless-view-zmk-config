@@ -1,3 +1,0 @@
-config LV_DISP_DEF_REFR_PERIOD
-    int "Default display refresh period"
-    default 30
