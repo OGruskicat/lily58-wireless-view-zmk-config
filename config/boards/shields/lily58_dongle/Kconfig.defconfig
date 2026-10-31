@@ -18,4 +18,14 @@ config BT_MAX_CONN
 config BT_MAX_PAIRED
     default 7
 
+# Enable Display and SPI drivers required by the Prospector module
+config ZMK_DISPLAY
+    default y
+
+config SPI
+    default y
+
+config LV_Z_BITS_PER_PIXEL
+    default 16
+
 endif
