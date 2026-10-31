@@ -15,14 +15,13 @@
 include:
   - board: nice_nano@2.0.0
     shield: lily58_left
-    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n -DKCONFIG_WARN_AS_ERROR=OFF
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
   - board: nice_nano@2.0.0
     shield: lily58_right
-    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n -DKCONFIG_WARN_AS_ERROR=OFF
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
   - board: nice_nano@2.0.0
     shield: settings_reset
   - board: xiao_ble
     shield: settings_reset
   - board: xiao_ble
-    shield: lily58_dongle prospector_adapter
-    cmake-args: -DKCONFIG_WARN_AS_ERROR=OFF
+    shield: lily58_dongle
