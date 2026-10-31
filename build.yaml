@@ -21,7 +21,8 @@ include:
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
   - board: nice_nano@2.0.0
     shield: settings_reset
-  - board: xiao_ble
+  - board: xiao_ble//zmk
     shield: settings_reset
-  - board: xiao_ble
+  - board: xiao_ble//zmk
     shield: lily58_dongle prospector_adapter
+    cmake-args: -DSHIELD_ROOT=config
