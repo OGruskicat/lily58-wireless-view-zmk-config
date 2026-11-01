@@ -44,7 +44,7 @@
             bindings = <
 &bt BT_CLR          &bt BT_SEL 0        &bt BT_SEL 1         &bt BT_SEL 2       &bt BT_SEL 3          &bt BT_SEL 4                    &trans     &trans          &trans          &trans           &trans    &trans
 &kp F1              &kp LS(UP_ARROW)    &kp F3               &kp C_VOLUME_UP    &kp C_BRIGHTNESS_INC  &kp F6                          &kp F7     &kp GRAVE       &kp UP_ARROW    &kp B            &kp F11   &kp F12
-&kp LS(LEFT_ARROW)  &kp LS(DOWN_ARROW)  &kp LS(RIGHT_ARROW)  &kp C_VOLUME_DOWN  &kp C_BRIGHTNESS_DEC  &kp PRCNT                       &kp CARET  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp C     &kp TILDE
+&kp LS(LEFT_ARROW)  &kp LS(DOWN_ARROW)  &kp LS(RIGHT_ARROW)  &kp C_VOLUME_DOWN  &kp C_BRIGHTNESS_DEC  &kp PRCNT                       &kp CARET  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp A     &kp TILDE
 &trans              &trans              &trans               &trans             &trans                &trans        &trans    &trans  &trans     &kp MINUS       &kp KP_PLUS     &kp LBRC         &kp RBRC  &kp PIPE
                                                              &trans             &trans                &trans        &trans    &trans  &trans     &trans          &trans
             >;
