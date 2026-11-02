@@ -15,11 +15,11 @@
 include:
   - board: nice_nano@2.0.0//zmk
     shield: lily58_left nice_view_adapter nice_view
-    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n -DCONFIG_ZMK_SLEEP=y -DCONFIG_ZMK_IDLE_SLEEP_TIMEOUT=900000
     artifact-name: lily58_left-nice_view-nice_nano-zmk
   - board: nice_nano@2.0.0//zmk
     shield: lily58_right nice_view_adapter nice_view
-    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n -DCONFIG_ZMK_SLEEP=y -DCONFIG_ZMK_IDLE_SLEEP_TIMEOUT=900000
     artifact-name: lily58_right-nice_view-nice_nano-zmk
   - board: nice_nano@2.0.0//zmk
     shield: settings_reset
